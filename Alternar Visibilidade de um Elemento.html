@@ -1,0 +1,20 @@
+<button id="toggleBtn">Mostrar/Esconder</button>
+<p id="texto">Este é um texto que pode ser escondido ou mostrado.</p>
+
+<script>
+  const btn = document.getElementById('toggleBtn');
+  const texto = document.getElementById('texto');
+  
+  btn.addEventListener('click', () => {
+    // Alterna entre display none e block
+    if (texto.style.display === 'none') {
+      texto.style.display = 'block';
+    } else {
+      texto.style.display = 'none';
+    }
+    
+    // Alternativa com classList:
+    // texto.classList.toggle('escondido');
+    // (precisa de classe CSS .escondido { display: none; })
+  });
+</script>

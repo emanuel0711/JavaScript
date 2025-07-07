@@ -1,0 +1,13 @@
+<div id="colorBox" style="width: 200px; height: 200px; background-color: gray;"></div>
+
+<script>
+  const box = document.getElementById('colorBox');
+  
+  box.addEventListener('mouseover', () => {
+    box.style.backgroundColor = 'blue';
+  });
+  
+  box.addEventListener('mouseout', () => {
+    box.style.backgroundColor = 'gray';
+  });
+</script>

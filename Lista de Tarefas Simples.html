@@ -1,0 +1,25 @@
+<input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
+<button id="addBtn">Adicionar</button>
+<ul id="listaTarefas"></ul>
+
+<script>
+  const input = document.getElementById('tarefaInput');
+  const btn = document.getElementById('addBtn');
+  const lista = document.getElementById('listaTarefas');
+  
+  btn.addEventListener('click', () => {
+    if (input.value.trim() !== '') {
+      const novaTarefa = document.createElement('li');
+      novaTarefa.textContent = input.value;
+      lista.appendChild(novaTarefa);
+      input.value = ''; // Limpa o input
+    }
+  });
+  
+  // Opcional: permitir adicionar com Enter
+  input.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      btn.click();
+    }
+  });
+</script>
