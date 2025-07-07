@@ -65,4 +65,4 @@ Alternador de temas claro/escuro
 📜 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
 
-<div align="center"> <img src="https://br.pinterest.com/pin/728949889671089687/"gif loud" width="200"/> <p>Faz o L ▷🎉</p> </div>
+<div align="center"> <img src="https://i.gifer.com/2Mgc.gif"gif " width="200"/> <p>Faz o L ▷🎉</p> </div>
